@@ -16,7 +16,7 @@ export default function Review() {
       The 60Hz display is super smooth, and the weather updates are spot-on. I use the camera control all the time 
       for group selfies, and the wake-up gesture works every single time. Plus, I barely have to charge it! 
       Definitely worth it."`,
-      name: "Ashwath S",
+      name: "Manu Sagar",
       img: ReviewImg
     },
     {
@@ -24,7 +24,7 @@ export default function Review() {
       Heart rate and SpO₂ tracking are accurate, and the guided breathing really helps me unwind after work. 
       The voice assistant is a lifesaver when I'm on the go, and the Bluetooth calling is crystal clear. 
       It's sleek, comfortable, and the battery lasts longer than I expected. Highly recommend!"`,
-      name: "Ashwath S",
+      name: "Mohan Kumar S",
       img: ReviewImg
     }
   ];

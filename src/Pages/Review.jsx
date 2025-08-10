@@ -1,11 +1,10 @@
-import React from 'react';
-import { FaQuoteLeft } from "react-icons/fa";
+import FaQuoteLeft from "react-icons/fa";
 import ReviewImg from '../assets/ReviewImg.png';
 
 export default function Review() {
   const reviews = [
     {
-      text: `"I’ve been using this watch for two weeks now, and I’m blown away! 
+      text: `"I've been using this watch for two weeks now, and I'm blown away! 
       The display is so bright and crisp that I can read it clearly even in direct sunlight. 
       Bluetooth calling works flawlessly, and I love being able to control my music without taking out my phone. 
       The health tracking features are surprisingly accurate, and the battery life easily lasts me a full week."`,
@@ -23,8 +22,8 @@ export default function Review() {
     {
       text: `"This watch has become my workout partner and daily planner. 
       Heart rate and SpO₂ tracking are accurate, and the guided breathing really helps me unwind after work. 
-      The voice assistant is a lifesaver when I’m on the go, and the Bluetooth calling is crystal clear. 
-      It’s sleek, comfortable, and the battery lasts longer than I expected. Highly recommend!"`,
+      The voice assistant is a lifesaver when I'm on the go, and the Bluetooth calling is crystal clear. 
+      It's sleek, comfortable, and the battery lasts longer than I expected. Highly recommend!"`,
       name: "Ashwath S",
       img: ReviewImg
     }

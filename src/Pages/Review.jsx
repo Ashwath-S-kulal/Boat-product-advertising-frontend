@@ -1,4 +1,6 @@
 import ReviewImg from '../assets/ReviewImg.png';
+import { TfiComments } from "react-icons/tfi";
+
 
 export default function Review() {
   const reviews = [
@@ -37,6 +39,7 @@ export default function Review() {
             key={index}
             className='text-white text-center justify-items-center ring-2 ring-orange-600 p-6 rounded-lg min-w-96 shadow-2xl'
           >
+            <TfiComments className='text-2xl mb-3'/>
             <p className='font-semibold text-sm text-center'>{review.text}</p>
             <img src={review.img} alt="Reviewer" className='w-14 ring-2 rounded-full mt-3' />
             <p>{review.name}</p>

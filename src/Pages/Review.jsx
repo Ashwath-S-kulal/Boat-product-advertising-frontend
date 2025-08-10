@@ -1,4 +1,3 @@
-import {FaQuoteLeft} from "react-icons/fa";
 import ReviewImg from '../assets/ReviewImg.png';
 
 export default function Review() {

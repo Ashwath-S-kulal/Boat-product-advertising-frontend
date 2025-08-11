@@ -20,7 +20,7 @@ function Related() {
 
   return (
     <div>
-      <h2 className="text-5xl font-bold text-center text-gray-700 pt-10">
+      <h2 className="text-4xl md:text-5xl font-bold text-center text-gray-700 pt-10">
         Related Products
       </h2>
 
@@ -28,10 +28,10 @@ function Related() {
         {products.map((imgSrc, index) => (
           <div
             key={index}
-            className="w-60 bg-orange-100 rounded-lg pt-5 flex flex-col items-center"
+            className="w-32 md:w-60 bg-orange-100 rounded-lg pt-5 flex flex-col items-center"
           >
             <img src={imgSrc} alt="image" className="mb-4" />
-            <button className="bg-orange-500 px-8 py-3 w-full text-white shadow-2xl">
+            <button className="bg-orange-500 px-4 md:px-8 py-3 w-full text-white shadow-2xl text-sm  md:text-lg">
               Know more..
             </button>
           </div>

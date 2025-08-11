@@ -44,7 +44,7 @@ export default function Features() {
 
       <div className="flex flex-col lg:flex-row justify-center items-center mt-10 gap-10 lg:gap-20">
         
-        <div className="max-w-sm flex flex-col justify-around gap-6">
+        <div className="max-w-sm flex flex-col justify-around gap-6 mx-2 md:mx-0">
           {leftFeatures.map((feature, index) => (
             <div key={index}>
               <h1 className="text-lg font-semibold text-gray-700">{feature.title}</h1>
@@ -55,7 +55,7 @@ export default function Features() {
 
         <img src={FeaturesImg} alt="Features" className="w-[320px] lg:w-[480px]" />
 
-        <div className="max-w-sm flex flex-col justify-around gap-6">
+        <div className="max-w-sm flex flex-col justify-around gap-6 mx-2 md:mx-0">
           {rightFeatures.map((feature, index) => (
             <div key={index}>
               <h1 className="text-lg font-semibold text-gray-700 ">{feature.title}</h1>

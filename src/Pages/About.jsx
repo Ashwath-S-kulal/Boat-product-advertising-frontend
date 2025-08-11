@@ -54,14 +54,12 @@ export default function About() {
             section.imgFirst ? "md:flex-row" : "md:flex-row-reverse"
           } justify-center items-center pt-12 gap-0 md:gap-24`}
         >
-          {/* Image */}
           <img
             src={section.img}
             alt={`About ${index + 1}`}
             className="w-full max-w-[450px] rounded-lg"
           />
 
-          {/* Text */}
           <aside className="max-w-2xl text-left mx-2 md:mx-0">
             <h2 className="text-slate-700 text-2xl md:text-3xl font-semibold mb-5">
               {section.title}

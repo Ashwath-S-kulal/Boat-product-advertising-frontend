@@ -4,14 +4,12 @@ import Image from "../assets/Lunar_Call.webp";
 export default function Home() {
   return (
     <div className="flex flex-col md:flex-row justify-center items-center gap-0 md:gap-12 min-h-screen px-6">
-      {/* Image */}
       <img
         src={Image}
         alt="Image"
-        className="w-96 md:w-full max-w-[600px] mt-10 md:mt-20"
+        className="w-96 md:w-full max-w-[600px] mt-0 md:mt-20"
       />
 
-      {/* Text Content */}
       <div className="flex flex-col justify-center items-start gap-8 max-w-lg">
         <h1 className="text-4xl md:text-6xl font-bold text-gray-700 leading-tight md:leading-[80px]">
           Believe in <br /> Technology, Make <br /> the Change

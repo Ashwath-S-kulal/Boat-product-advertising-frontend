@@ -40,11 +40,11 @@ export default function Features() {
 
   return (
     <div className="min-h-screen px-4 py-10 ">
-      <h2 className="text-5xl font-bold text-center text-gray-700 pt-12">Features</h2>
+      <h2 className="text-5xl font-bold text-center text-gray-700 pt-6 md:pt-12">Features</h2>
 
       <div className="flex flex-col lg:flex-row justify-center items-center mt-10 gap-10 lg:gap-20">
         
-        <div className="max-w-sm flex flex-col justify-around gap-6 mx-2 md:mx-0">
+        <div className="max-w-sm flex flex-col justify-around gap-0 md:gap-6 mx-2 md:mx-0">
           {leftFeatures.map((feature, index) => (
             <div key={index}>
               <h1 className="text-lg font-semibold text-gray-700">{feature.title}</h1>
@@ -55,7 +55,7 @@ export default function Features() {
 
         <img src={FeaturesImg} alt="Features" className="w-[320px] lg:w-[480px]" />
 
-        <div className="max-w-sm flex flex-col justify-around gap-6 mx-2 md:mx-0">
+        <div className="max-w-sm flex flex-col justify-around gap-0 md:gap-6 mx-2 md:mx-0">
           {rightFeatures.map((feature, index) => (
             <div key={index}>
               <h1 className="text-lg font-semibold text-gray-700 ">{feature.title}</h1>

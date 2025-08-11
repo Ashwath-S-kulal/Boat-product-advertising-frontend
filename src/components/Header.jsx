@@ -6,7 +6,7 @@ function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-slate-300 sticky top-0 z-50">
+    <nav className="bg-slate-300 fixed top-0 left-0 w-full z-50 shadow-md">
       <div className="flex justify-between items-center p-3 max-w-7xl mx-auto px-4">
         <a href="#home">
           <img src={boatLogo} alt="logo" className="h-10" />
@@ -31,6 +31,12 @@ function Header() {
             className="text-gray-700 hover:text-blue-500 cursor-pointer"
           >
             About
+          </a>
+          <a
+            href="#review"
+            className="text-gray-700 hover:text-blue-500 cursor-pointer"
+          >
+            Review
           </a>
           <a
             href="#footer"
@@ -72,6 +78,13 @@ function Header() {
             onClick={() => setIsOpen(false)}
           >
             About
+          </a>
+          <a
+            href="#review"
+            className="block text-gray-700 hover:text-blue-500"
+            onClick={() => setIsOpen(false)}
+          >
+            Review
           </a>
           <a
             href="#footer"

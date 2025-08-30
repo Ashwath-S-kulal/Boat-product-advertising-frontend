@@ -3,7 +3,7 @@ import Image from "../assets/Lunar_Call.webp";
 
 export default function Home() {
   return (
-    <div className="flex flex-col md:flex-row justify-center items-center gap-0 md:gap-12 min-h-screen px-6">
+    <div className="flex flex-col md:flex-row justify-center items-center gap-0 md:gap-12 min-h-screen px-6 mt-6">
       <img
         src={Image}
         alt="Image"

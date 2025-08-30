@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import boatLogo from "../assets/boat logo.png";
-import { Menu, X } from "lucide-react"; // for hamburger icon
+import { Menu, X } from "lucide-react"; 
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,7 +12,6 @@ function Header() {
           <img src={boatLogo} alt="logo" className="h-10" />
         </a>
 
-        {/* Desktop Menu */}
         <section className="hidden md:flex gap-5 font-semibold text-[18px]">
           <a
             href="#home"
@@ -46,7 +45,6 @@ function Header() {
           </a>
         </section>
 
-        {/* Mobile Hamburger */}
         <button
           onClick={() => setIsOpen(!isOpen)}
           className="md:hidden text-gray-700"
@@ -55,7 +53,6 @@ function Header() {
         </button>
       </div>
 
-      {/* Mobile Dropdown Menu */}
       {isOpen && (
         <div className="md:hidden bg-slate-200 px-4 pb-3 space-y-2 font-semibold text-[18px]">
           <a

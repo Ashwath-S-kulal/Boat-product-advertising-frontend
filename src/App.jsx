@@ -9,7 +9,7 @@ import Footer from './components/Footer';
 function App() {
   
   return (
-    <div className='h-screen'>
+    <div className='h-screen w-screen'>
       <Header />
       <section id='home'>
         <Home/>

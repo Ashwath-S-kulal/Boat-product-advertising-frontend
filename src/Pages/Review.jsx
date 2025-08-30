@@ -30,7 +30,7 @@ export default function Review() {
   ];
 
   return (
-    <div className="bg-orange-400 pb-20 px-4 mt-10 pt-6 md:pt-20">
+    <div className="bg-orange-400 pb-20 px-4 mt-10 pt-6 md:pt-20 max-w-screen">
       <h2 className="text-4xl md:text-5xl font-bold text-center text-gray-700 pt-10">
         Watch Reviews
       </h2>

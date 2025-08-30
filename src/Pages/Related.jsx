@@ -18,7 +18,7 @@ function Related() {
   const products = [Image, Image1,Image2, Image3,Image4, Image5,Image6,Image7,Image8];
 
   return (
-    <div>
+    <div className='w-screen'>
       <h2 className="text-4xl md:text-5xl font-bold text-center text-gray-700 pt-10">
         Related Products
       </h2>

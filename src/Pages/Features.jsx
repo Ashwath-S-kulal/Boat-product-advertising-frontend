@@ -39,7 +39,7 @@ export default function Features() {
   ];
 
   return (
-    <div className="min-h-screen px-4 py-10 ">
+    <div className="min-h-screen px-4 py-10 w-screen">
       <h2 className="text-5xl font-bold text-center text-gray-700 pt-6 md:pt-12">Features</h2>
 
       <div className="flex flex-col lg:flex-row justify-center items-center mt-10 gap-10 lg:gap-20">

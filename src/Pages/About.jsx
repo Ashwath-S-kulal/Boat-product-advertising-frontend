@@ -42,7 +42,7 @@ export default function About() {
   ];
 
   return (
-    <div className="px-4">
+    <div className="px-4 w-screen">
       <h2 className="text-4xl md:text-5xl font-bold text-center text-gray-700 pt-16 md:pt-24">
         Why you Choose this Watch
       </h2>
